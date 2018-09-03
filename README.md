@@ -10,3 +10,10 @@
 + 番茄次数列表
 ## 相关截图
 ![demo1](https://github.com/3212lin/tomatoClock/blob/master/screenshot/1.jpg)
+![demo2](https://github.com/3212lin/tomatoClock/blob/master/screenshot/2.jpg)
+![demo3](https://github.com/3212lin/tomatoClock/blob/master/screenshot/3.jpg)
+![demo4](https://github.com/3212lin/tomatoClock/blob/master/screenshot/4.jpg)
+## 联系作者
+email:1655749268@qq.com
+wechat:zjcins
+> 请将appid换成自己的正式appid
