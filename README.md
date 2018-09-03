@@ -9,4 +9,4 @@
 + 番茄次数的统计
 + 番茄次数列表
 ## 相关截图
-![demo1](/screenshot/1.png)
+![demo1](https://github.com/3212lin/tomatoClock/blob/master/screenshot/1.jpg)
