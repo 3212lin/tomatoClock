@@ -83,9 +83,10 @@ Page({
   },
 
   drawBg: function () {
+    var lineWidth = 6 * this.data.rate;
     var ctx = wx.createCanvasContext('canvas_bg');
     // 设置圆环的宽度
-    ctx.setLineWidth(3);
+    ctx.setLineWidth(lineWidth);
     // 设置圆环的颜色
     ctx.setStrokeStyle('#000000');
     // 设置圆环端点的形状
@@ -93,7 +94,7 @@ Page({
     //开始一个新的路径
     ctx.beginPath();
     //设置一个原点(110,110)，半径为100的圆的路径到当前路径
-    ctx.arc(this.data.progressWidth * this.data.rate / 2, this.data.progressHeight * this.data.rate / 2, this.data.progressWidth * this.data.rate / 2 - 6, 0, 2 * Math.PI, false);
+    ctx.arc(this.data.progressWidth * this.data.rate / 2, this.data.progressHeight * this.data.rate / 2, this.data.progressWidth * this.data.rate / 2 - 2 * lineWidth, 0, 2 * Math.PI, false);
     //对当前路径进行描边
     ctx.stroke();
     //开始绘制
@@ -142,9 +143,10 @@ Page({
             showTimeStr: showTimeStr
           })
         }  
+        var lineWidth = 6 * _this.data.rate;
         var ctx = wx.createCanvasContext('canvas_circle');
         // 设置圆环的宽度
-        ctx.setLineWidth(3);
+        ctx.setLineWidth(lineWidth);
         // 设置圆环的颜色
         ctx.setStrokeStyle('#ffffff');
         // 设置圆环端点的形状
@@ -152,7 +154,7 @@ Page({
         //开始一个新的路径
         ctx.beginPath();
         //设置一个原点(110,110)，半径为100的圆的路径到当前路径
-        ctx.arc(_this.data.progressWidth * _this.data.rate / 2, _this.data.progressHeight * _this.data.rate / 2, _this.data.progressWidth * _this.data.rate / 2 - 6, 1.5 * Math.PI, angle * Math.PI, false);
+        ctx.arc(_this.data.progressWidth * _this.data.rate / 2, _this.data.progressHeight * _this.data.rate / 2, _this.data.progressWidth * _this.data.rate / 2 - 2 * lineWidth, 1.5 * Math.PI, angle * Math.PI, false);
         //对当前路径进行描边
         ctx.stroke();
         //开始绘制
