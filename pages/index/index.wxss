@@ -64,6 +64,7 @@
 .clock .progress {
   position: relative;
   margin: 140rpx auto;
+  overflow: hidden;
 }
 .clock .progress .progress_bg {
   width: 400rpx;
@@ -71,7 +72,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  display: block;
 }
 .clock .progress .progress_circle {
   width: 400rpx;
@@ -79,15 +79,15 @@
   position: absolute;
   left: 0;
   top: 0;
-  display: block;
 }
 
 .clock .progress .progress_text {
   position: absolute;
-  left: 140rpx;
+  left: 120rpx;
   top: 170rpx;
-  width: 120rpx;
+  width: 160rpx;
   height: 60rpx;
+  line-height: 60rpx;
   text-align: center;
   color: #ffffff;
   font-weight: bold;
