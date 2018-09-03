@@ -1,0 +1,111 @@
+/**index.wxss**/
+.slider_tasktime {
+  width: 650rpx;
+  margin: 70rpx auto;
+}
+.task .task_text {
+  text-align: center;
+}
+.task .task_text .task_text1 {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+}
+.task .task_text .task_text2 {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  color: #999999;
+}
+.task .task_cate {
+  width: 600rpx;
+  height: 400rpx;
+  margin: 30rpx auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 30rpx;
+}
+.task .task_cate .task_cate_icon  {
+  height: 80rpx;
+  text-align: center;
+}
+.task .task_cate .task_cate_icon image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.task .task_cate .task_cate_text {
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.task .task_cate .task_cate_item {
+  width: 200rpx;
+  height: 150rpx;
+}
+.task .task_cate .task_cate_item_active {
+  color: #e7624f;
+}
+.start {
+  width: 260rpx;
+  height: 100rpx;
+  margin: 60rpx auto;
+  border: 4rpx solid #e7624f;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+  color: #e7624f;
+  border-radius: 30rpx;
+}
+.clock {
+  background: #e7624f;
+  overflow: hidden;
+}
+.clock .progress {
+  position: relative;
+  margin: 140rpx auto;
+}
+.clock .progress .progress_bg {
+  width: 400rpx;
+  height: 400rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+}
+.clock .progress .progress_circle {
+  width: 400rpx;
+  height: 400rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+.clock .progress .progress_text {
+  position: absolute;
+  left: 140rpx;
+  top: 170rpx;
+  width: 120rpx;
+  height: 60rpx;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 45rpx;
+}
+.btn .pauseBtn,.btn .continueBtn,.btn .cancleBtn,.btn .okBtn  {
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 200rpx;
+  border-radius: 20rpx;
+  border: 2rpx solid #ffffff;
+  color: #ffffff;
+  margin: 20rpx auto;
+}
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
+}
