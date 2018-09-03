@@ -8,6 +8,8 @@
 - [x] 时钟开始、暂停、结束、放弃
 - [x] 番茄次数的统计
 - [x] 番茄次数列表
+## 数据存储
+基于微信小程序缓存机制存储数据,不依赖于任何数据库，所有数据存储在用户的客户端
 ## 相关截图
 ![demo1](https://github.com/3212lin/tomatoClock/blob/master/screenshot/1.jpg)
 ![demo2](https://github.com/3212lin/tomatoClock/blob/master/screenshot/2.jpg)
