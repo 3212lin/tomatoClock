@@ -11,10 +11,10 @@
 ## 数据存储
 基于微信小程序缓存机制存储数据,不依赖于任何数据库，所有数据存储在用户的客户端
 ## 相关截图
-![demo1](https://github.com/3212lin/tomatoClock/blob/master/screenshot/1.jpg)
-![demo2](https://github.com/3212lin/tomatoClock/blob/master/screenshot/2.jpg)
-![demo3](https://github.com/3212lin/tomatoClock/blob/master/screenshot/3.jpg)
-![demo4](https://github.com/3212lin/tomatoClock/blob/master/screenshot/4.jpg)
+![demo1](https://raw.githubusercontent.com/3212lin/tomatoClock/master/screenshot/1.jpg)
+![demo2](https://raw.githubusercontent.com/3212lin/tomatoClock/master/screenshot/2.jpg)
+![demo3](https://raw.githubusercontent.com/3212lin/tomatoClock/master/screenshot/3.jpg)
+![demo4](https://raw.githubusercontent.com/3212lin/tomatoClock/master/screenshot/4.jpg)
 ## 联系作者
 + 个人博客地址：[且试天下2012](http://www.cnblogs.com/adobe-lin)
 + email:1655749268@qq.com
