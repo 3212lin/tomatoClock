@@ -75,7 +75,8 @@ Page({
   start: function () {
     this.setData({
       wrapShow: false,
-      showTimeStr: this.data.time > 10 ? this.data.time + ':00' : '0' + this.data.time + ":00" 
+      showTimeStr: this.data.time > 10 ? this.data.time + ':00' : '0' + this.data.time + ":00",
+      showTime: parseInt(this.data.time) * 60*1000
     })
     this.drawBg();
     this.drawCircle();
