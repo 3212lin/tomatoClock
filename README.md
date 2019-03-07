@@ -17,6 +17,4 @@
 ![demo4](https://raw.githubusercontent.com/3212lin/tomatoClock/master/screenshot/4.jpg)
 ## 联系作者
 + 个人博客地址：[且试天下2012](http://www.cnblogs.com/adobe-lin)
-+ email:1655749268@qq.com
-+ wechat:zjcins
 > 注意：请将appid换成自己的正式appid
